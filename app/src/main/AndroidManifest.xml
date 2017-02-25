@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dell_pc.get_price">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Home"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity_add_item" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Signup" />
+        <activity android:name=".CustomerSignup" />
+        <activity android:name=".Customergetprice" />
+        <activity android:name=".Shopkeeper_Signup" />
+        <activity android:name=".ShopkeeperHome" />
+        <activity android:name=".CustomerInquiry" />
+        <activity android:name=".Stalk" />
+        <activity android:name=".Update" />
+        <activity android:name=".Delete" />
+        <activity android:name=".GetpriceCompetitior" />
+        <activity android:name=".Customergetpricedetail" />
+        <activity android:name=".CustomerHome"></activity>
+    </application>
+
+</manifest>
